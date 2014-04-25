@@ -1,0 +1,167 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face
+{
+font-family: duru-sans;
+src: url(../font/Duru-Sans/DuruSans-Regular.ttf);
+}
+
+.container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background-color: #1f78dc;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+header {
+	background-image: url('../images/header-background.jpg'); 
+	width: 100%;
+	height: 127px;
+	overflow: hidden;
+}
+
+#logo {
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	width: 271px;
+	height: 78px;
+	margin-top: 19px;
+	float: left;
+	margin-left: 40px;
+}
+
+#mobilenav {
+	display: none;
+}
+
+ul#nav {
+	float: right;
+	margin-top: 73px;
+	margin-right: 247px;
+	text-decoration: none;
+}
+
+ul#nav li {
+	display: inline-block;
+	margin-left: 37px;
+}
+
+ul#nav li a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+}
+
+/* Main Content goes under */
+
+#main-bg-images {
+	width: 100%;
+	float: left;
+	padding-left: 3.9%;
+}
+
+.show-case1 {
+	max-width: 460px;
+	min-height: 260px;
+	margin: 0 auto;
+	width: 100%;
+	background-size: contain;
+	background-image: url('../images/fishandchips.jpg');
+	display: inline-block;
+	float: left;
+}
+
+.show-case2 {
+	max-width: 460px;
+	min-height: 260px;
+	margin: 0 auto;
+	width: 100%;
+	background-size: contain;
+	background-image: url('../images/triffik-nightclub.jpg');
+	display: inline-block;
+	float: left;
+	margin-left: 1.96%;
+}
+
+#secondary-images {
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 3.9%;
+}
+
+.small-image1 {
+	width: 299px;
+	height: 151px;
+	background-image: url('../images/resume.jpg');
+ 	float: left;
+ 	margin-top: 3.2%;
+ 	margin-bottom: 8.9%;
+}
+
+.small-image2 {
+	width: 299px;
+	height: 151px;
+	background-image: url('../images/working-womens.jpg');
+	float: left;
+ 	margin-top: 3.2%;
+ 	margin-left: 1.96%;
+ 	margin-bottom: 8.9%;
+}
+
+.small-image3 {
+	width: 299px;
+	height: 151px;
+	background-image: url('../images/rocky.jpg');
+	float: left;
+ 	margin-top: 3.2%;
+ 	margin-left: 1.96%;
+ 	margin-bottom: 8.9%;
+}
+
+/* Footer goes under */
+
+footer {
+	clear: both; /*or try overflow: auto;*/
+	background-color: #fff;
+	height: 68px;
+}
+
+#social-media {
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+#social-media .linkedin {
+	padding-left: 40px;
+}
+
+#social-media .github {
+	padding-left: 40px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+
+	#mobilenav {
+		display: inline-block;
+	}
+
+
+}
+
+
+
+
+
